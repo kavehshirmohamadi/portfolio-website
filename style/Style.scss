@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+//color Variable
+$orange-color:#ffbc00;
+$w-color:#fff;
+$b-color:#000;
+$ws-color:#ecebeb;
+//End color Variable
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    margin: auto;
+}
+
+//  End Navbar 
+nav {
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        img {
+            width: 75px;
+            height: 75px;
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            margin-top: 20px;
+            li {
+                margin-left: 30px;
+            }
+            li:hover {
+                border-bottom: $orange-color 3px solid;
+            }
+            a {
+                text-decoration: none;
+                color: $w-color;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+//  End Navbar
+//  Header
+header {
+    width: 100%;
+    height: 100vh;
+    .showcase {
+        background: url(../img/showcase.jpg);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .content {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            h1 {
+                padding-top: 280px;
+                text-align: center;
+                color: $w-color;
+                font-size: 3.5rem;
+            }
+            p {
+                display: block;
+                color: $w-color;
+                font-size: 1.5rem;
+                padding: 10px 0;
+                a {
+                    text-decoration: none;
+                    color: $w-color;
+                    font-size: 1.5rem;
+                }
+            }
+            .link {
+                margin-top: 15px;
+                a {
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                    background: $w-color;
+                    color: $b-color;
+                    padding: 15px 30px;
+                }
+                a:hover {
+                    transition: 0.5s ease-in-out all;
+                    background: $orange-color;
+                }
+            }
+        }
+    }
+}
+
+.work-home {
+    width: 100%;
+    height: 400px;
+    background: $ws-color;
+}
+
+// End Header
