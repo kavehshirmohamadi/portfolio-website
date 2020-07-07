@@ -9,6 +9,7 @@
         $w-color:#fff;
         $b-color:#000;
         $ws-color:#ecebeb;
+        $dark-color:#333333;
         //End color Variable
         body {
             font-family: 'Dosis', sans-serif;
@@ -222,3 +223,39 @@
                 }
             }
         }
+        
+        // footer
+        footer {
+            background: $dark-color;
+            padding: 20px 0;
+            width: 100%;
+            height: 80px;
+            .container {
+                padding: 0 20px;
+            }
+            .content {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .copy {
+                color: $w-color;
+                font-size: 1.3rem;
+                a {
+                    @extend .copy;
+                    text-decoration: none;
+                    color: $orange-color;
+                }
+            }
+            .socials {
+                color: $w-color;
+                font-size: 2rem;
+                 :hover {
+                    color: $orange-color;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+        // End footer

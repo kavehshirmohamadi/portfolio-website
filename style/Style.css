@@ -267,4 +267,48 @@ header .showcase .content .link a:hover {
   text-align: center;
   line-height: 1.5;
 }
+
+footer {
+  background: #333333;
+  padding: 20px 0;
+  width: 100%;
+  height: 80px;
+}
+
+footer .container {
+  padding: 0 20px;
+}
+
+footer .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .copy, footer .copy a {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+footer .copy a {
+  text-decoration: none;
+  color: #ffbc00;
+}
+
+footer .socials {
+  color: #fff;
+  font-size: 2rem;
+}
+
+footer .socials :hover {
+  color: #ffbc00;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
