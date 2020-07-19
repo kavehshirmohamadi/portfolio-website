@@ -9,6 +9,7 @@ $w-color:#fff;
 $b-color:#000;
 $ws-color:#ecebeb;
 $dark-color:#333333;
+$d-color:#5c5b5b57;
 nav {
     width: 100%;
     max-height: 100%;
@@ -120,25 +121,31 @@ nav {
         p {
             text-align: center;
         }
-        .ppl-say {
+        .test {
+            list-style: none;
             display: flex;
-            justify-content: space-around;
-            .item {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 10px;
+            li {
                 padding: 10px;
-                .say {
-                    border: 1px solid $dark-color;
-                    line-height: 1.5rem;
-                    padding: 30px;
-                    border-radius: 5px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin-top: 10px;
                 }
-                ul {
-                    list-style: none;
-                    li {
-                        img {
-                            width: 20px;
-                            height: 20px;
-                        }
-                    }
+                h4 {
+                    display: inline-block;
+                    height: 80%;
+                    vertical-align: 15px;
+                    padding-left: 10px;
+                }
+                p {
+                    padding: 20px;
+                    border: 2px solid $d-color;
+                    border-radius: 10px;
+                    text-align: left;
                 }
             }
         }

@@ -138,32 +138,39 @@ nav {
   text-align: center;
 }
 
-.testmonial .content .ppl-say {
+.testmonial .content .test {
+  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.testmonial .content .ppl-say .item {
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px;
 }
 
-.testmonial .content .ppl-say .item .say {
-  border: 1px solid #333333;
-  line-height: 1.5rem;
-  padding: 30px;
-  border-radius: 5px;
+.testmonial .content .test li {
+  padding: 10px;
 }
 
-.testmonial .content .ppl-say .item ul {
-  list-style: none;
+.testmonial .content .test li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 10px;
 }
 
-.testmonial .content .ppl-say .item ul li img {
-  width: 20px;
-  height: 20px;
+.testmonial .content .test li h4 {
+  display: inline-block;
+  height: 80%;
+  vertical-align: 15px;
+  padding-left: 10px;
+}
+
+.testmonial .content .test li p {
+  padding: 20px;
+  border: 2px solid #5c5b5b57;
+  border-radius: 10px;
+  text-align: left;
 }
 
 * {
